@@ -1,3 +1,6 @@
+import { Mongo } from 'meteor/mongo';
+import SimpleSchema from 'simpl-schema';
+
 Planning = new Mongo.Collection( 'planning' );
 
 Planning.allow({

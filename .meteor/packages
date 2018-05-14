@@ -27,3 +27,5 @@ aldeed:schema-index
 aldeed:schema-deny
 session
 kadira:flow-router
+twbs:bootstrap
+check

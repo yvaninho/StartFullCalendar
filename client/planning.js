@@ -26,7 +26,7 @@ Template.planning.onRendered( () => {
      let date = event.start.format();
      if ( !isPast( date ) ) {
        let update = {
-         _id: event._id,
+         _id: session._id,
          start: date,
          end: date
        };
